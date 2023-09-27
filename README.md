@@ -1,5 +1,12 @@
 # SynthOS
-An X86 lightweight OS I am building as a hobby project in `Nasm`, `C` and `C++`, more details about the OS to follow as we build. 
+An X86 lightweight OS I am building as a hobby project in `Nasm`, `C` and `C++`, more details about the OS to follow as we build.
+
+## Running the code.
+Ensure you have `QEMU-KVM` installed and run on Linux: After that run:
+
+```sh
+qemu-system-i386 -fda build/main_floppy.img
+```
 
 # Introduction:
 ## How does a computer startup?
