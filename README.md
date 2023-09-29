@@ -7,7 +7,7 @@ To run the code ensure you have `QEMU-KVM` installed and run on Linux: After tha
 ```sh
 make # Run make to build the proceed to the virtualization command
 
-qemu-system-i386 -fda build/main_floppy.img
+./run.sh
 ```
 
 # Introduction:
